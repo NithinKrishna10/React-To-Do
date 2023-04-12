@@ -13,12 +13,7 @@ import React from "react";
     const submitTodoHandler = (e) =>{
         e.preventDefault();
         if(document.getElementById('inputTodo').value.trim() === ""){
-          // MySwal.fire({
-          //   title: <p>Todo Cannot be Empty</p>,
-          //   didOpen: () => {
-          //     MySwal.showLoading()
-          //   },
-          // })
+       
           console.log("hai");
         }else{
           setTodos([
